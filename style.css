@@ -1,4 +1,3 @@
-/* Configuração global e TEMA CLARO */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,53 +6,45 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #f4f7f6; /* Fundo cinza-claro, suave */
-    color: #333; /* Cor de texto padrão */
+    background-color: #f4f7f6;
+    color: #333;
     display: flex; 
     min-height: 100vh;
     overflow-x: hidden;
 }
 
-/* --- 1. BARRA LATERAL (Sidebar) --- */
 #sidebar {
     flex: 0 0 300px;
-    background-color: #008a4f; /* Verde Principal (do logo Unimed) */
-    color: #ffffff; /* Texto branco sobre o verde */
+    background-color: #008a4f;
+    color: #ffffff;
     padding: 15px;
     height: 100vh;
     position: sticky;
     top: 0;
     overflow-y: auto;
-    border-right: none; /* Remove a borda do tema escuro */
+    border-right: none;
     transition: margin-left 0.3s ease;
     z-index: 1000;
 }
 
-/* --- 
-    --- CORREÇÃO AQUI --- 
---- */
 .logo-container {
-    padding: 10px 0 20px 0; /* Espaço em cima e embaixo */
-    text-align: center; /* Centraliza a imagem */
-    border-bottom: 1px solid #00a45e; /* Linha divisória */
+    width: 100%;
+    padding: 10px 15px 20px 15px;
+    text-align: center;
+    border-bottom: 1px solid #00a45e;
     margin-bottom: 10px;
 }
 .logo-container img {
-    width: 90%; /* FORÇA a largura a ser 90% do container */
-    max-width: 250px; /* Limite máximo de segurança */
-    height: auto; /* Mantém a proporção */
-    border-radius: 8px; /* Arredonda levemente as bordas */
-    display: block; /* Garante que a imagem se comporte */
-    margin: 0 auto; /* Ajuda a centralizar */
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
 }
-/* --- 
-    --- FIM DA CORREÇÃO --- 
---- */
 
-
-/* --- Estilos de Seção da Sidebar --- */
 .sidebar-section {
-    border-bottom: 1px solid #00a45e; /* Tom de verde um pouco mais claro */
+    border-bottom: 1px solid #00a45e;
     margin-bottom: 10px;
 }
 .sidebar-section:last-child {
@@ -69,7 +60,7 @@ body {
     transition: background-color 0.2s;
 }
 .section-header:hover {
-    background-color: #006237; /* Verde mais escuro no hover */
+    background-color: #006237;
 }
 .section-header .caret {
     display: inline-block;
@@ -81,7 +72,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 0;
-    max-height: 0; /* Começa fechado */
+    max-height: 0;
     overflow: hidden;
     transition: max-height 0.3s ease-out;
 }
@@ -93,9 +84,8 @@ body {
     transition: max-height 0.5s ease-in;
 }
 
-/* --- Menu em Árvore (Sub-itens) --- */
 .category-item {
-    color: #ffffff; /* Texto branco */
+    color: #ffffff;
     font-weight: bold;
     font-size: 1.1em;
     padding: 12px 10px;
@@ -106,7 +96,7 @@ body {
     transition: background-color 0.2s;
 }
 .category-item:hover {
-    background-color: #006237; /* Verde escuro no hover */
+    background-color: #006237;
 }
 .category-item .caret {
     display: inline-block;
@@ -121,26 +111,24 @@ body {
     transition: max-height 0.3s ease-out;
 }
 .location-item {
-    color: #d1f0e1; /* Verde bem claro (texto dos sub-itens) */
+    color: #d1f0e1;
     padding: 10px 10px 10px 15px;
     cursor: pointer;
     border-radius: 6px;
     margin: 4px 0;
 }
 .location-item:hover {
-    background-color: #ffffff; /* Fundo branco no hover */
-    color: #008a4f; /* Texto verde no hover */
+    background-color: #ffffff;
+    color: #008a4f;
 }
 .category-list-item.open > .category-item .caret {
     transform: rotate(90deg);
 }
 .category-list-item.open > .location-list {
     max-height: 500px; 
-    overflow-y: auto; /* Mantém o scroll dos BINs */
+    overflow-y: auto;
 }
 
-
-/* --- 2. CONTEÚDO PRINCIPAL (Busca e Resultados) --- */
 #main-content {
     flex-grow: 1;
     padding: 20px;
@@ -149,15 +137,14 @@ body {
     transition: margin-left 0.3s ease;
 }
 
-/* Botão de Toggle (Desktop) */
 #desktop-toggle {
     display: none; 
     position: absolute;
     top: 20px;
     left: 15px;
     z-index: 50;
-    background: #ffffff; /* Fundo branco */
-    color: #008a4f; /* Ícone verde */
+    background: #ffffff;
+    color: #008a4f;
     border: 1px solid #ddd;
     padding: 10px 15px;
     border-radius: 8px;
@@ -171,21 +158,20 @@ body {
     background-color: #f4f7f6;
 }
 
-/* "Ilha Flutuante" de Pesquisa */
 .search-container { 
     width: 95%; 
     max-width: 800px; 
     margin: 5vh auto 30px auto; 
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #ffffff;
     border-radius: 16px; 
     padding: 30px; 
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* Sombra suave */
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
     border: 1px solid #ddd;
     position: relative; 
 }
 h1 { 
     text-align: center; 
-    color: #349b8d; /* Verde "Teal" do logo (palavra "Hospital") */
+    color: #349b8d;
     margin-bottom: 25px; 
     font-size: 1.8em; 
 }
@@ -197,8 +183,8 @@ h1 {
     flex-grow: 1; 
     padding: 16px; 
     font-size: 16px; 
-    background-color: #f4f7f6; /* Fundo do input cinza-claro */
-    color: #333; /* Texto do input escuro */
+    background-color: #f4f7f6;
+    color: #333;
     border: 2px solid #ddd;
     border-radius: 10px 0 0 10px; 
     border-right: none; 
@@ -210,15 +196,15 @@ h1 {
     color: #888;
 }
 #searchInput:focus { 
-    border-color: #008a4f; /* Borda verde ao focar */
+    border-color: #008a4f;
     box-shadow: none;
 }
 #searchButton { 
     padding: 0 25px; 
     font-size: 16px; 
     font-weight: bold; 
-    color: #ffffff; /* Texto do botão branco */
-    background-color: #008a4f; /* Botão verde principal */
+    color: #ffffff;
+    background-color: #008a4f;
     border: none; 
     border-radius: 0 10px 10px 0; 
     cursor: pointer; 
@@ -226,14 +212,13 @@ h1 {
     flex-shrink: 0;
 }
 #searchButton:hover { 
-    background-color: #006237; /* Verde escuro no hover */
+    background-color: #006237;
 }
 
-/* Autocompletar */
 #autocomplete-list { 
     display: none; 
     position: absolute; 
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #ffffff;
     border: 1px solid #ddd;
     border-radius: 10px; 
     width: 100%; 
@@ -254,21 +239,20 @@ h1 {
     border-bottom: none; 
 }
 .autocomplete-item:hover { 
-    background-color: #f4f7f6; /* Fundo cinza-claro no hover */
+    background-color: #f4f7f6;
 }
 .autocomplete-item h4 { 
-    color: #349b8d; /* Título do item em Verde "Teal" */
+    color: #349b8d;
     font-size: 1em; 
     margin-bottom: 4px; 
 }
 .autocomplete-item p { 
-    color: #555; /* Texto secundário escuro */
+    color: #555;
 }
 
-/* Cards de Resultado */
 .results-container { width: 95%; max-width: 800px; margin: 0 auto; }
 .result-item { 
-    background-color: #ffffff; /* Fundo branco */
+    background-color: #ffffff;
     border-radius: 12px; 
     padding: 25px; 
     margin-bottom: 15px; 
@@ -278,22 +262,22 @@ h1 {
 }
 .result-title { display: flex; align-items: center; font-size: 1.2em; font-weight: bold; margin-bottom: 20px; }
 .result-title.success { 
-    color: #349b8d; /* Verde "Teal" para sucesso */
+    color: #349b8d;
 }
 .result-title.error { 
-    color: #d9534f; /* Vermelho padrão para erro */
+    color: #d9534f;
 }
 .result-title span { margin-right: 10px; font-size: 1.3em; }
 .result-field { margin-bottom: 12px; font-size: 1.1em; }
 .result-field strong { 
-    color: #555; /* Label em cinza-escuro */
+    color: #555;
     font-weight: 600; 
     display: block; 
     margin-bottom: 4px; 
     font-size: 0.9em; 
 }
 .result-field .data { 
-    color: #111; /* Dado em preto */
+    color: #111;
     font-weight: 500; 
     padding-left: 5px; 
 }
@@ -302,18 +286,14 @@ h1 {
 .no-results { text-align: center; color: #777; padding: 20px; font-style: italic; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
 
-
-/* --- 3. RESPONSIVIDADE (Celular & Botões) --- */
-
-/* Botão de Toggle (Mobile - Hamburger) */
 #menu-toggle {
     display: block; 
     position: fixed;
     top: 15px;
     left: 15px;
     z-index: 1001;
-    background: #ffffff; /* Fundo branco */
-    color: #008a4f; /* Ícone verde */
+    background: #ffffff;
+    color: #008a4f;
     border: 1px solid #ddd;
     padding: 10px 15px;
     border-radius: 8px;
@@ -331,61 +311,55 @@ h1 {
     z-index: 999; 
 }
 
-
-/* Media Query para Desktop (Telas maiores que 901px) */
 @media (min-width: 901px) {
     #menu-toggle {
-        display: none; /* Esconde o hamburger no desktop */
+        display: none;
     }
     #desktop-toggle {
-        display: block; /* Mostra o botão '◄' no desktop */
+        display: block;
     }
-
     body.sidebar-collapsed #sidebar {
-        margin-left: -300px; /* Desliza a sidebar para fora da tela */
+        margin-left: -300px;
     }
 }
 
-
-/* Media Query para Mobile (Telas de 900px ou menos) */
 @media (max-width: 900px) {
     body {
-        display: block; /* Reseta o 'flex' do desktop */
+        display: block;
     }
     
     #desktop-toggle {
-        display: none; /* Garante que o botão desktop suma no mobile */
+        display: none;
     }
 
     #menu-toggle, #overlay.active {
-        display: block; /* Mostra o botão e o overlay */
+        display: block;
     }
     
     #sidebar {
-        position: fixed; /* Menu agora flutua por cima */
-        left: -300px; /* Começa fora da tela */
-        width: 300px; /* Largura explícita */
+        position: fixed;
+        left: -300px;
+        width: 300px;
         height: 100vh;
         z-index: 1000;
         box-shadow: 0 0 20px rgba(0,0,0,0.2);
         padding: 15px;
-        margin-left: 0; /* Reseta o margin-left do desktop */
-        background-color: #008a4f; /* Garante o fundo verde */
+        margin-left: 0;
+        background-color: #008a4f;
         border-right: none;
     }
 
     #sidebar.open {
-        left: 0; /* Entra na tela */
+        left: 0;
     }
     
     #main-content {
         flex-grow: 1; 
         width: 100%; 
         padding: 20px; 
-        padding-top: 80px; /* Espaço para o botão de menu */
+        padding-top: 80px;
     }
 
-    /* ... (restante dos estilos mobile - sem mudanças) ... */
     .search-container { width: 100%; padding: 20px; margin-top: 0; }
     h1 { font-size: 1.5em; }
     .results-container { width: 100%; }
