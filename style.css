@@ -1,4 +1,4 @@
-/* Configuração global e tema escuro */
+/* Configuração global e TEMA CLARO */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,134 +7,276 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    background-color: #121822; /* Fundo principal escuro */
-    color: #f0f0f0;
-    display: flex; /* LAYOUT PRINCIPAL (para Desktop) */
+    background-color: #f4f7f6; /* Fundo cinza-claro, suave */
+    color: #333; /* Cor de texto padrão */
+    display: flex; 
     min-height: 100vh;
-    overflow-x: hidden; /* Evita barra de rolagem horizontal na transição */
+    overflow-x: hidden;
 }
 
 /* --- 1. BARRA LATERAL (Sidebar) --- */
 #sidebar {
-    flex: 0 0 300px; /* Não cresce, não encolhe, base de 300px */
-    background-color: #202938; /* Cor de fundo da sidebar */
+    flex: 0 0 300px;
+    background-color: #008a4f; /* Verde Principal (do logo Unimed) */
+    color: #ffffff; /* Texto branco sobre o verde */
     padding: 15px;
     height: 100vh;
-    position: sticky; /* Fica fixa no scroll */
+    position: sticky;
     top: 0;
-    overflow-y: auto; /* Permite scroll se as categorias forem muitas */
-    border-right: 1px solid #334155;
-    transition: margin-left 0.3s ease; /* ATUALIZADO: Transição para deslizar */
+    overflow-y: auto;
+    border-right: none; /* Remove a borda do tema escuro */
+    transition: margin-left 0.3s ease;
     z-index: 1000;
 }
 
 /* --- Estilos de Seção da Sidebar --- */
-.sidebar-section { border-bottom: 1px solid #334155; margin-bottom: 10px; }
-.sidebar-section:last-child { border-bottom: none; }
-.section-header { color: #ffffff; font-size: 1.3em; padding: 15px 5px; cursor: pointer; display: flex; align-items: center; transition: background-color 0.2s; }
-.section-header:hover { background-color: #334155; }
-.section-header .caret { display: inline-block; margin-right: 10px; font-size: 0.8em; transition: transform 0.2s ease; }
-.section-content { list-style: none; padding: 0; margin: 0; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
-.sidebar-section.open > .section-header .caret { transform: rotate(90deg); }
-.sidebar-section.open > .section-content { max-height: 1000px; transition: max-height 0.5s ease-in; }
+.sidebar-section {
+    border-bottom: 1px solid #00a45e; /* Tom de verde um pouco mais claro */
+    margin-bottom: 10px;
+}
+.sidebar-section:last-child {
+    border-bottom: none;
+}
+.section-header {
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 15px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+.section-header:hover {
+    background-color: #006237; /* Verde mais escuro no hover */
+}
+.section-header .caret {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 0.8em;
+    transition: transform 0.2s ease;
+}
+.section-content {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-height: 0; /* Começa fechado */
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.sidebar-section.open > .section-header .caret {
+    transform: rotate(90deg);
+}
+.sidebar-section.open > .section-content {
+    max-height: 1000px;
+    transition: max-height 0.5s ease-in;
+}
 
 /* --- Menu em Árvore (Sub-itens) --- */
-.category-list-item { /* ... */ }
-.category-item { color: #e2e8f0; font-weight: bold; font-size: 1.1em; padding: 12px 10px; cursor: pointer; border-radius: 6px; display: flex; align-items: center; transition: background-color 0.2s; }
-.category-item:hover { background-color: #334155; }
-.category-item .caret { display: inline-block; margin-right: 10px; transition: transform 0.2s ease; }
-.location-list { list-style: none; padding-left: 15px; max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
-.location-item { color: #b0c4de; padding: 10px 10px 10px 15px; cursor: pointer; border-radius: 6px; border-left: 2px solid #334155; margin: 4px 0; }
-.location-item:hover { background-color: #3b82f6; color: #ffffff; }
-.category-list-item.open > .category-item .caret { transform: rotate(90deg); }
+.category-item {
+    color: #ffffff; /* Texto branco */
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 12px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
+}
+.category-item:hover {
+    background-color: #006237; /* Verde escuro no hover */
+}
+.category-item .caret {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.2s ease;
+}
+.location-list {
+    list-style: none;
+    padding-left: 15px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.location-item {
+    color: #d1f0e1; /* Verde bem claro (texto dos sub-itens) */
+    padding: 10px 10px 10px 15px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin: 4px 0;
+}
+.location-item:hover {
+    background-color: #ffffff; /* Fundo branco no hover */
+    color: #008a4f; /* Texto verde no hover */
+}
+.category-list-item.open > .category-item .caret {
+    transform: rotate(90deg);
+}
 .category-list-item.open > .location-list {
     max-height: 500px; 
-    overflow-y: auto; /* Correção do scroll da lista de BINs */
+    overflow-y: auto; /* Mantém o scroll dos BINs */
 }
 
 
 /* --- 2. CONTEÚDO PRINCIPAL (Busca e Resultados) --- */
 #main-content {
-    flex-grow: 1; /* Ocupa o resto do espaço no desktop */
+    flex-grow: 1;
     padding: 20px;
-    overflow-y: auto; /* Permite scroll dos resultados */
-    position: relative; /* Para posicionar o novo botão */
+    overflow-y: auto;
+    position: relative;
     transition: margin-left 0.3s ease;
 }
 
 /* Botão de Toggle (Desktop) */
 #desktop-toggle {
-    display: none; /* Escondido por padrão (mobile-first) */
+    display: none; 
     position: absolute;
     top: 20px;
     left: 15px;
     z-index: 50;
-    background: #202938;
-    color: #ffffff;
-    border: 1px solid #334155;
+    background: #ffffff; /* Fundo branco */
+    color: #008a4f; /* Ícone verde */
+    border: 1px solid #ddd;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 20px;
     cursor: pointer;
     line-height: 1;
     transition: left 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 #desktop-toggle:hover {
-    background-color: #334155;
+    background-color: #f4f7f6;
 }
 
 /* "Ilha Flutuante" de Pesquisa */
-.search-container { width: 95%; max-width: 800px; margin: 5vh auto 30px auto; background-color: #202938; border-radius: 16px; padding: 30px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2); border: 1px solid #334155; position: relative; }
-h1 { text-align: center; color: #ffffff; margin-bottom: 25px; font-size: 1.8em; }
-.search-box { display: flex; width: 100%; }
+.search-container { 
+    width: 95%; 
+    max-width: 800px; 
+    margin: 5vh auto 30px auto; 
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 16px; 
+    padding: 30px; 
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* Sombra suave */
+    border: 1px solid #ddd;
+    position: relative; 
+}
+h1 { 
+    text-align: center; 
+    color: #349b8d; /* Verde "Teal" do logo (palavra "Hospital") */
+    margin-bottom: 25px; 
+    font-size: 1.8em; 
+}
+.search-box { 
+    display: flex; 
+    width: 100%; 
+}
 #searchInput { 
     flex-grow: 1; 
     padding: 16px; 
     font-size: 16px; 
-    background-color: #121822; 
-    color: #ffffff; 
-    border: 2px solid #334155; 
+    background-color: #f4f7f6; /* Fundo do input cinza-claro */
+    color: #333; /* Texto do input escuro */
+    border: 2px solid #ddd;
     border-radius: 10px 0 0 10px; 
     border-right: none; 
     outline: none; 
     transition: border-color 0.3s, box-shadow 0.3s;
-    min-width: 0; /* Permite que o input encolha se necessário */
+    min-width: 0;
 }
-#searchInput:focus { border-color: #3b82f6; box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.3); }
-
-/* --- CORREÇÃO DO BOTÃO "BUSCAR" --- */
+#searchInput::placeholder {
+    color: #888;
+}
+#searchInput:focus { 
+    border-color: #008a4f; /* Borda verde ao focar */
+    box-shadow: none;
+}
 #searchButton { 
     padding: 0 25px; 
     font-size: 16px; 
     font-weight: bold; 
-    color: #ffffff; 
-    background-color: #3b82f6; 
+    color: #ffffff; /* Texto do botão branco */
+    background-color: #008a4f; /* Botão verde principal */
     border: none; 
     border-radius: 0 10px 10px 0; 
     cursor: pointer; 
     transition: background-color 0.3s;
-    flex-shrink: 0; /* <-- ADICIONADO: Impede o botão de encolher */
+    flex-shrink: 0;
 }
-#searchButton:hover { background-color: #2563eb; }
+#searchButton:hover { 
+    background-color: #006237; /* Verde escuro no hover */
+}
 
-/* ... (Estilos de Autocomplete e Cards de Resultado - Sem mudanças) ... */
-#autocomplete-list { display: none; position: absolute; background-color: #2c3e50; border: 1px solid #334155; border-radius: 10px; width: 100%; left: 0; right: 0; top: calc(100% - 20px); max-height: 300px; overflow-y: auto; z-index: 100; box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); }
-.autocomplete-item { padding: 15px 20px; cursor: pointer; border-bottom: 1px solid #3d526d; }
-.autocomplete-item:last-child { border-bottom: none; }
-.autocomplete-item:hover { background-color: #3b82f6; }
-.autocomplete-item h4 { color: #ffffff; font-size: 1em; margin-bottom: 4px; }
-.autocomplete-item p { color: #b0c4de; font-size: 0.9em; }
+/* Autocompletar */
+#autocomplete-list { 
+    display: none; 
+    position: absolute; 
+    background-color: #ffffff; /* Fundo branco */
+    border: 1px solid #ddd;
+    border-radius: 10px; 
+    width: 100%; 
+    left: 0; 
+    right: 0; 
+    top: calc(100% - 20px); 
+    max-height: 300px; 
+    overflow-y: auto; 
+    z-index: 100; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); 
+}
+.autocomplete-item { 
+    padding: 15px 20px; 
+    cursor: pointer; 
+    border-bottom: 1px solid #eee;
+}
+.autocomplete-item:last-child { 
+    border-bottom: none; 
+}
+.autocomplete-item:hover { 
+    background-color: #f4f7f6; /* Fundo cinza-claro no hover */
+}
+.autocomplete-item h4 { 
+    color: #349b8d; /* Título do item em Verde "Teal" */
+    font-size: 1em; 
+    margin-bottom: 4px; 
+}
+.autocomplete-item p { 
+    color: #555; /* Texto secundário escuro */
+}
+
+/* Cards de Resultado */
 .results-container { width: 95%; max-width: 800px; margin: 0 auto; }
-.result-item { background-color: #2c3e50; border-radius: 12px; padding: 25px; margin-bottom: 15px; border: 1px solid #3d526d; animation: fadeIn 0.4s; }
+.result-item { 
+    background-color: #ffffff; /* Fundo branco */
+    border-radius: 12px; 
+    padding: 25px; 
+    margin-bottom: 15px; 
+    border: 1px solid #ddd;
+    animation: fadeIn 0.4s; 
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
 .result-title { display: flex; align-items: center; font-size: 1.2em; font-weight: bold; margin-bottom: 20px; }
-.result-title.success { color: #2ecc71; }
-.result-title.error { color: #e74c3c; }
+.result-title.success { 
+    color: #349b8d; /* Verde "Teal" para sucesso */
+}
+.result-title.error { 
+    color: #d9534f; /* Vermelho padrão para erro */
+}
 .result-title span { margin-right: 10px; font-size: 1.3em; }
 .result-field { margin-bottom: 12px; font-size: 1.1em; }
-.result-field strong { color: #b0c4de; font-weight: 600; display: block; margin-bottom: 4px; font-size: 0.9em; }
-.result-field .data { color: #ffffff; font-weight: 500; padding-left: 5px; }
-.error-item .result-field p { color: #f0f0f0; }
-.error-item .result-field strong { color: #e74c3c; }
+.result-field strong { 
+    color: #555; /* Label em cinza-escuro */
+    font-weight: 600; 
+    display: block; 
+    margin-bottom: 4px; 
+    font-size: 0.9em; 
+}
+.result-field .data { 
+    color: #111; /* Dado em preto */
+    font-weight: 500; 
+    padding-left: 5px; 
+}
+.error-item .result-field p { color: #333; }
+.error-item .result-field strong { color: #d9534f; }
 .no-results { text-align: center; color: #777; padding: 20px; font-style: italic; }
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
 
@@ -148,9 +290,9 @@ h1 { text-align: center; color: #ffffff; margin-bottom: 25px; font-size: 1.8em; 
     top: 15px;
     left: 15px;
     z-index: 1001;
-    background: #202938;
-    color: #ffffff;
-    border: 1px solid #334155;
+    background: #ffffff; /* Fundo branco */
+    color: #008a4f; /* Ícone verde */
+    border: 1px solid #ddd;
     padding: 10px 15px;
     border-radius: 8px;
     font-size: 20px;
@@ -177,8 +319,6 @@ h1 { text-align: center; color: #ffffff; margin-bottom: 25px; font-size: 1.8em; 
         display: block; /* Mostra o botão '◄' no desktop */
     }
 
-    /* --- CORREÇÃO DA SIDEBAR ---
-       Esta regra agora SÓ se aplica ao desktop */
     body.sidebar-collapsed #sidebar {
         margin-left: -300px; /* Desliza a sidebar para fora da tela */
     }
@@ -205,13 +345,15 @@ h1 { text-align: center; color: #ffffff; margin-bottom: 25px; font-size: 1.8em; 
         width: 300px; /* Largura explícita */
         height: 100vh;
         z-index: 1000;
-        box-shadow: 0 0 20px rgba(0,0,0,0.3);
+        box-shadow: 0 0 20px rgba(0,0,0,0.2);
         padding: 15px;
-        margin-left: 0; /* <-- IMPORTANTE: Reseta o margin-left do desktop */
+        margin-left: 0; /* Reseta o margin-left do desktop */
+        background-color: #008a4f; /* Garante o fundo verde */
+        border-right: none;
     }
 
     #sidebar.open {
-        left: 0; /* <-- Esta regra agora funciona! */
+        left: 0; /* Entra na tela */
     }
     
     #main-content {
