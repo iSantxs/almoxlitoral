@@ -29,7 +29,9 @@ body {
     z-index: 1000;
 }
 
-/* Estilos da Logo */
+/* --- 
+    --- CORREÇÃO AQUI --- 
+--- */
 .logo-container {
     padding: 10px 0 20px 0; /* Espaço em cima e embaixo */
     text-align: center; /* Centraliza a imagem */
@@ -37,10 +39,17 @@ body {
     margin-bottom: 10px;
 }
 .logo-container img {
-    max-width: 90%; /* Logo ocupa 90% da largura da sidebar */
+    width: 90%; /* FORÇA a largura a ser 90% do container */
+    max-width: 250px; /* Limite máximo de segurança */
     height: auto; /* Mantém a proporção */
     border-radius: 8px; /* Arredonda levemente as bordas */
+    display: block; /* Garante que a imagem se comporte */
+    margin: 0 auto; /* Ajuda a centralizar */
 }
+/* --- 
+    --- FIM DA CORREÇÃO --- 
+--- */
+
 
 /* --- Estilos de Seção da Sidebar --- */
 .sidebar-section {
