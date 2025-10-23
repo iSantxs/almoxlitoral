@@ -27,22 +27,6 @@ body {
     z-index: 1000;
 }
 
-.logo-container {
-    width: 100%;
-    padding: 10px 15px 20px 15px;
-    text-align: center;
-    border-bottom: 1px solid #00a45e;
-    margin-bottom: 10px;
-}
-.logo-container img {
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-    border-radius: 8px;
-}
-
 .sidebar-section {
     border-bottom: 1px solid #00a45e;
     margin-bottom: 10px;
@@ -284,6 +268,18 @@ h1 {
 .error-item .result-field p { color: #333; }
 .error-item .result-field strong { color: #d9534f; }
 .no-results { text-align: center; color: #777; padding: 20px; font-style: italic; }
+
+.logo-container-main {
+    text-align: center;
+    padding-top: 30px;
+    opacity: 0.5;
+}
+.logo-container-main img {
+    max-width: 300px;
+    width: 80%;
+    height: auto;
+}
+
 @keyframes fadeIn { from { opacity: 0; transform: translateY(-10px); } to { opacity: 1; transform: translateY(0); } }
 
 #menu-toggle {
