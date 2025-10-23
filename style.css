@@ -377,6 +377,7 @@ h1 {
         margin-left: 0;
         background-color: #008a4f;
         border-right: none;
+        transition: left 0.3s ease;
     }
 
     #sidebar.open {
@@ -424,12 +425,12 @@ body.dark-mode .location-item:hover {
 }
 body.dark-mode #desktop-toggle,
 body.dark-mode #menu-toggle {
-    background: #202938;
+    background: #202834;
     color: #e0e0e0;
     border: 1px solid #334155;
 }
 body.dark-mode .search-container {
-    background-color: #202938;
+    background-color: #202834;
     border: 1px solid #334155;
 }
 body.dark-mode h1 {
