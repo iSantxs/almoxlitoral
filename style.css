@@ -29,7 +29,7 @@ body {
     z-index: 1000;
 }
 
-/* === NOVO (Estilos da Logo) === */
+/* Estilos da Logo */
 .logo-container {
     padding: 10px 0 20px 0; /* Espaço em cima e embaixo */
     text-align: center; /* Centraliza a imagem */
@@ -41,14 +41,23 @@ body {
     height: auto; /* Mantém a proporção */
     border-radius: 8px; /* Arredonda levemente as bordas */
 }
-/* ================================ */
-
 
 /* --- Estilos de Seção da Sidebar --- */
 .sidebar-section {
     border-bottom: 1px solid #00a45e; /* Tom de verde um pouco mais claro */
     margin-bottom: 10px;
 }
+.sidebar-section:last-child {
+    border-bottom: none;
+}
+.section-header {
+    color: #ffffff;
+    font-size: 1.3em;
+    padding: 15px 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.2s;
 }
 .section-header:hover {
     background-color: #006237; /* Verde mais escuro no hover */
@@ -372,4 +381,3 @@ h1 {
     h1 { font-size: 1.5em; }
     .results-container { width: 100%; }
 }
-
