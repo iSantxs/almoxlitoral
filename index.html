@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Itens</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="sidebar-collapsed">
+
+    <button id="menu-toggle" aria-label="Abrir menu">&#9776;</button>
+
+    <div id="overlay"></div>
+
+    <div id="sidebar">
+
+        <div class="sidebar-section">
+            <h2 class="section-header" data-target="category-tree">
+                <span class="caret">►</span> Categorias
+            </h2>
+            <ul id="category-tree" class="section-content">
+                </ul>
+        </div>
+
+        <div class="sidebar-section">
+            <h2 class="section-header" data-target="class-tree">
+                <span class="caret">►</span> Classes
+            </h2>
+            <ul id="class-tree" class="section-content">
+                </ul>
+        </div>
+        
+    </div>
+
+    <div id="main-content">
+        
+        <button id="desktop-toggle" aria-label="Exibir menu">►</button>
+        <div class="search-container" id="search-container">
+            <h1>Buscador de Medicamentos</h1>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Digite o nome ou código do item...">
+                <button id="searchButton">Buscar</button>
+            </div>
+            
+            <div id="autocomplete-list"></div>
+        </div>
+
+        <div class="results-container" id="results">
+            <p class="no-results" style="font-size: 1.1em; color: #94a3b8;">
+                Use a busca ou navegue pelas categorias na barra lateral.
+            </p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

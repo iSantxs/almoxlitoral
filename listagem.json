@@ -1,0 +1,1232 @@
+[
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 1246,
+  "Item": "AMINOFILINA 24MG\/ML 10ML INJ."
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 1232,
+  "Item": "ADENOSINA 3MG\/ML - 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 1269,
+  "Item": "ACETILCISTEINA 100MG\/ML - 3ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 14,
+  "Item": "ATROPINA 0,25MG\/ML - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 1540,
+  "Item": "ACICLOVIR 250MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 581,
+  "Item": "AMPICILINA 1G F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 554,
+  "Item": "AMOXICILINA + CLAV. POTASSIO 1G\/200MG F\/A "
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 612,
+  "Item": "AMICACINA 500MG - 2ML AMP"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 35947,
+  "Item": "ACIDO TRANEXAMICO 50MG\/ML - 5ML INJET"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 1192,
+  "Item": "BROMOPRIDA 10MG\/2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 54811,
+  "Item": "BENZILPENCILINA BENZATINA 600.000UI F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 583,
+  "Item": "BENZILPENCILINA BENZATINA 1.200.000UI F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 582,
+  "Item": "BENZILPENCILINA POTASSICA 5.000.000UI F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 764,
+  "Item": "COMPLEXO B - 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 1362,
+  "Item": "CEFAZOLINA SODICA 1G F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 24075,
+  "Item": "CEFALOTINA SODICA 1G F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 606,
+  "Item": "CEFTRIAXONA 1G F\/A IV\/IM"
+ },
+ {
+  "Estante": "MEDICAMENTOS A",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 608,
+  "Item": "CEFEPIMA 1G F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 17478,
+  "Item": "CLARITROMICINA 500MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 597,
+  "Item": "CLINDAMICINA 600MG\/4ML AMP."
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 7947,
+  "Item": "CETOPROFENO 50MG\/ML - 2ML AMPOLA IM"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 2194,
+  "Item": "CETOPROFENO100MG FA IV"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 817,
+  "Item": "DESLANOSIDEO 0,2MG\/ML 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 01",
+  "Codigo": 461,
+  "Item": "DIFENIDRAMINA 50MG"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 189,
+  "Item": "DIPIRONA SODICA 500MG\/ML - 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 337,
+  "Item": "DEXAMETASONA, FOSFATO DISSODICO 4MG\/ML - 2,5ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 43538,
+  "Item": "DEXAMETASONA 2MG\/ML - 1ML AMP"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 222,
+  "Item": "DICLOFENACO SODICO 25MG\/ML - 3ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 1244,
+  "Item": "ERITROPOETINA HUMANA RECOMBINANTE 4000UI (K)"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 1180,
+  "Item": "EFEDRINA, SULFATO 50MG\/ML - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 1215,
+  "Item": "ESCOPOLAMINA BUTILBROMETO 20MG\/ML - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 1348,
+  "Item": "ESCOPOLAMINA + DIPIRONA 4+500MG\/ML - 5ML AMPOLA"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 901,
+  "Item": "FUROSEMIDA 20MG\/2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 339,
+  "Item": "HIDROCORTISONA 100MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 340,
+  "Item": "HIDROCORTISONA 500MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 1249,
+  "Item": "HIDROXIDO DE FERRO II 100MG\/5ML (EV)"
+ },
+ {
+  "Estante": "MEDICAMENTOS B",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 833,
+  "Item": "HIDRALAZINA 20MG\/ML - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 01 - BAIXA MOVIMENTAÇÃO",
+  "Codigo": 766,
+  "Item": "POLIESTIRENOSSULFONATO DE CALCIO 900MG\/G - 30G"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 01 - BAIXA MOVIMENTAÇÃO",
+  "Codigo": 1280,
+  "Item": "PROTAMINA 1000 UI - 5ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 01 - BAIXA MOVIMENTAÇÃO",
+  "Codigo": 1483,
+  "Item": "DANTROLENO SODICO IV FA 20MG"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 01 - BAIXA MOVIMENTAÇÃO",
+  "Codigo": 1557,
+  "Item": "FITOMENADIONA 10MG\/ML - 1ML IM"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 01 - BAIXA MOVIMENTAÇÃO",
+  "Codigo": 613,
+  "Item": "GENTAMICINA, SULFATO 80MG\/ 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 01 - BAIXA MOVIMENTAÇÃO",
+  "Codigo": 1234,
+  "Item": "FOSFATO DE SOFIO, MONOBASICO E DIBASICO 130ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 344,
+  "Item": "SUCCINATO DE  METILPREDNISOLONA 500MG - 8ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 43579,
+  "Item": "METILPREDNIOLONA 125MG - F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 17350,
+  "Item": "MEROPENEM 1G F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 27825,
+  "Item": "NEOSTIGMINA 0,5MG\/ML - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 1296,
+  "Item": "METILERGOMETRINA 0,2MG 1ML INJ."
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 956,
+  "Item": "METOPROLOL 5MG INJ"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 1197,
+  "Item": "METOCLOPRAMIDA 10MG 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 04",
+  "Codigo": 585,
+  "Item": "OXACILINA 500MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 04",
+  "Codigo": 1207,
+  "Item": "ONDASETRONA, CLORIDRATO 8MG INJETAVEL"
+ },
+ {
+  "Estante": "MEDICAMENTOS C",
+  "Local": "PRATELEIRA 04",
+  "Codigo": 1169,
+  "Item": "OMEPRAZOL 40MG INJET."
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 01 - ALTO CUSTO",
+  "Codigo": 1297,
+  "Item": "ALBUMINA HUMANA 20% - 50ML (N)"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 01 - ALTO CUSTO",
+  "Codigo": 45678,
+  "Item": "MICAFUNGINA 100MG"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 01 - ALTO CUSTO",
+  "Codigo": 1152,
+  "Item": "COMPLEXO PROTROMBI 500UI INJET"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 01 - ALTO CUSTO",
+  "Codigo": 10884,
+  "Item": "MILRINONA, LACTATO 1MG\/ML - 10ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 01 - ALTO CUSTO",
+  "Codigo": 50098,
+  "Item": "DIU KYLEENA"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 01 - ALTO CUSTO",
+  "Codigo": 50799,
+  "Item": "DIU ENDOCEPTIVO ESTERIL HORMONAL - MIRENA"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 38416,
+  "Item": "PIPERACILINA+TAZOBACTAN 4G\/500MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 32592,
+  "Item": "POLIMINA B 500.000 UI"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 454,
+  "Item": "PROMETAZINA 25MG\/ML 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 164,
+  "Item": "ROPIVACAINA, BROMETO 1% - 20ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 02",
+  "Codigo": 29545,
+  "Item": "SUGAMADEX SODICO 100 MG\/ML - 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 10815,
+  "Item": "TIAMINA+PIRIDOXINA+CIANOCOBALAMINA 5000UI - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 42481,
+  "Item": "VASOPRESSINA 20 U\/ML C\/ 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 635,
+  "Item": "VANCOMICINA CLORIDRATO 500MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 03",
+  "Codigo": 246,
+  "Item": "TENOXICAN 20MG F\/A"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 04",
+  "Codigo": 761,
+  "Item": "AGUA DESTILADA 10ML (K) (F)"
+ },
+ {
+  "Estante": "MEDICAMENTOS D",
+  "Local": "PRATELEIRA 04",
+  "Codigo": 9312,
+  "Item": "CLORETO DE SODIO 0,9% - 10ML (F)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 1315,
+  "Item": "AZUL DE TRYPAN 0,1% - 1ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 1303,
+  "Item": "CARBACOL 0,1MG\/ML - 2ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 55335,
+  "Item": "MOXIFLOXACINO 5,45MG\/ML (VIGAMOX)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 1309,
+  "Item": "FENILEFRINA 10% - 5ML COLIRIO"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 1311,
+  "Item": "TROPICAMIDA 1% - 5ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 1353,
+  "Item": "CLORANFENICOL+AA+METIONINA+RETINOL OFT. 3,5G (K)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 50809,
+  "Item": "METILCELULOSE 4% - 1,5ML SERINGA (OPHTHALMOS)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 50810,
+  "Item": "METILCELULOSE 2% - 2,5ML SERINGA (OPHTHALMOS)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 01 - OFTALMO",
+  "Codigo": 32513,
+  "Item": "CARMELOSE SODICA 0,5% 15ML"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 820,
+  "Item": "AMIODARONA 200MG CMP (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 819,
+  "Item": "AMIODARONA CLORIDRATO 50MG\/ML - 3ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 1356,
+  "Item": "ALTEPLASE 50MG F\/A (VM) (N)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 1126,
+  "Item": "DOBUTAMINA, CLORIDRATO 250MG\/20ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 1173,
+  "Item": "DOPAMINA 5MG\/ML - 10ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 444,
+  "Item": "EPINEFRINA 1MG\/ML - 1ML (VM) (F)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 02 - ALTO RISCO",
+  "Codigo": 1275,
+  "Item": "HEPARINA 5000UI\/ML - 5ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 03 - ALTO RISCO",
+  "Codigo": 1270,
+  "Item": "ENOXAPARINA 20MG SERINGA COM DISPOSITIVO DE SEGURANÇA © VM"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 03 - ALTO RISCO",
+  "Codigo": 1271,
+  "Item": "ENOXAPARINA 40MG SERINGA COM DISPOSITIVO DE SEGURANÇA © VM"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 03 - ALTO RISCO",
+  "Codigo": 1272,
+  "Item": "ENOXAPARINA 60MG SERINGA COM DISPOSITIVO DE SEGURANÇA © VM"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 03 - ALTO RISCO",
+  "Codigo": 1216,
+  "Item": "NOREPINEFRINA, HEMITARTARATO 2MG\/ML - 4ML (VM) (F)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 1106,
+  "Item": "NITROPRUSSIATO DE SODIO 50MG INJET (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 831,
+  "Item": "NITROGLICERINA 5MG\/ML - 10ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 1516,
+  "Item": "SOLUÇÃO DE GLICOSE 25% - 10ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 1517,
+  "Item": "SOLUÇÃO DE GLICOSE 50% - 10ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 178,
+  "Item": "SUXAMETONIO 100MG F\/A - 2ML (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 23024,
+  "Item": "RIVAROXABAN 15MG CMP (VM)"
+ },
+ {
+  "Estante": "MEDICAMENTOS E",
+  "Local": "PRATELEIRA 04 - ALTO RISCO",
+  "Codigo": 40140,
+  "Item": "VARFARINA SODICA 5MG COMP"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 01",
+  "Codigo": 184,
+  "Item": "ACIDO ACETILSALICILICO 100MG CMP (K)",
+  "Classe": "ANALGESICOS E ANESTESICOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 01",
+  "Codigo": 187,
+  "Item": "DIPIRONA SODICA 500MG CMP",
+  "Classe": "ANALGESICOS E ANESTESICOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 01",
+  "Codigo": 196,
+  "Item": "PARACETAMOL 500MG CMP",
+  "Classe": "ANALGESICOS E ANESTESICOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 02",
+  "Codigo": 417,
+  "Item": "DEXCLORFENIRAMINA, MALEATO 2MG CMP",
+  "Classe": "ANTI ALERGICO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 02",
+  "Codigo": 450,
+  "Item": "PROMETAZINA 25MG CMP",
+  "Classe": "ANTI ALERGICO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 02",
+  "Codigo": 28490,
+  "Item": "BROMOPRIDA 10MG CMP (B)",
+  "Classe": "ANTI HEMETICOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 02",
+  "Codigo": 1198,
+  "Item": "METOCLOPRAMIDA 10MG COMP.",
+  "Classe": "ANTI HEMETICOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 03",
+  "Codigo": 248,
+  "Item": "TENOXICAN 20MG CMP",
+  "Classe": "ANTI INFLAMARTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 03",
+  "Codigo": 50096,
+  "Item": "DICLOFENACO DE POTASSIO 50MG",
+  "Classe": "ANTI INFLAMARTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 03",
+  "Codigo": 336,
+  "Item": "DEXAMETASONA 4MG CMP",
+  "Classe": "ANTI INFLAMARTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 03",
+  "Codigo": 39532,
+  "Item": "IBUPROFENO 300MG COMP",
+  "Classe": "ANTI INFLAMARTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 03",
+  "Codigo": 32192,
+  "Item": "MESALAZINA 800MG CMP",
+  "Classe": "ANTI INFLAMARTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 04",
+  "Codigo": 28325,
+  "Item": "AZITROMICINA, DIIDRATADA 500MG CMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 04",
+  "Codigo": 593,
+  "Item": "ALBENDAZOL 400MG COMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 04",
+  "Codigo": 43521,
+  "Item": "CETOCONAZOL 200MG COMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 04",
+  "Codigo": 591,
+  "Item": "CIPROFLOXACINO 500MG COMP.",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 04",
+  "Codigo": 20211,
+  "Item": "CEFALEXINA 500 MG COMPRIMIDO",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 05",
+  "Codigo": 600,
+  "Item": "FLUCONAZOL 150MG COMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 05",
+  "Codigo": 1542,
+  "Item": "IVERMECTINA 6MG COMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 05",
+  "Codigo": 28564,
+  "Item": "LEVOFLOXACINO 500MG COMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 05",
+  "Codigo": 688,
+  "Item": "METRONIDAZOL 250MG CMP",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 05",
+  "Codigo": 619,
+  "Item": "SULFAMETOXAZOL+TRIMETOPRIMA 400\/80MG CPS",
+  "Classe": "ANTI MICROBIANO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 05",
+  "Codigo": 1357,
+  "Item": "ACICLOVIR 200MG COMP (K)",
+  "Classe": "ANTI RETROVIRAIS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 06",
+  "Codigo": 30227,
+  "Item": "LEVOTIROXINA T4 50MCG CMP",
+  "Classe": "DISTURBIOS HORMONAIS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 06",
+  "Codigo": 1299,
+  "Item": "LEVOTIROXINA T4 25MCG CMP",
+  "Classe": "DISTURBIOS HORMONAIS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 06",
+  "Codigo": 894,
+  "Item": "ACETAZOLAMIDA 250MG CMP",
+  "Classe": "DIURETICOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 06",
+  "Codigo": 33178,
+  "Item": "CLORETO DE POTASSIO 600 MG",
+  "Classe": "ELETROLITOS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 07",
+  "Codigo": 1304,
+  "Item": "GLIBENCLAMIDA 5MG COMP",
+  "Classe": "METABOLICOS E NUTRIÇÃO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 07",
+  "Codigo": 1312,
+  "Item": "METFORMINA COMP 850MG",
+  "Classe": "METABOLICOS E NUTRIÇÃO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 07",
+  "Codigo": 1310,
+  "Item": "METFORMINA 500MG CMP",
+  "Classe": "METABOLICOS E NUTRIÇÃO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 08",
+  "Codigo": 1085,
+  "Item": "ANLODIPINO, BESILATO 5MG CMP (K)",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 08",
+  "Codigo": 43512,
+  "Item": "ATENOLOL 50MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 08",
+  "Codigo": 933,
+  "Item": "BISOPROLOL, FUMARATO 2,5MG COMP (K)",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 08",
+  "Codigo": 969,
+  "Item": "CLONIDINA 0,100MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 08",
+  "Codigo": 1117,
+  "Item": "CAPTOPRIL 25MG COMP (B)",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 30225,
+  "Item": "CARVEDILOL 3,125MG COMP (B)",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 54804,
+  "Item": "CARVEDILOL 6,25MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 43534,
+  "Item": "CUMARINA 15MG + TROXERRUTINA 90MG - DRAGEAS",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 818,
+  "Item": "DIGOXINA 0,25MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 925,
+  "Item": "ESPIRONOLACTONA 25MG COMP (B)",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 54814,
+  "Item": "ENALAPRIL, MALEATO 10MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 09",
+  "Codigo": 1501,
+  "Item": "FUROSEMIDA 40MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 10",
+  "Codigo": 1087,
+  "Item": "HESPERIDINA+DIOSMINA 50\/450MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 10",
+  "Codigo": 834,
+  "Item": "HIDRALAZINA 25MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 10",
+  "Codigo": 43565,
+  "Item": "HIDROCLOROTIAZIDA 50MG - COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 10",
+  "Codigo": 826,
+  "Item": "ISOSSORBIDA, MONONITRATO 20MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 10",
+  "Codigo": 825,
+  "Item": "ISOSSORBIDA, MONONITRATO 5MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 10",
+  "Codigo": 1129,
+  "Item": "LOSARTANA POTASSICA 50MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 1089,
+  "Item": "NIFEDIPINO 10MG SUBLINGUAL",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 54816,
+  "Item": "NIFEDIPINO RETARD 20MG MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 1072,
+  "Item": "METILDOPA 250MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 54817,
+  "Item": "PENTOXIFILINA 400 MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 962,
+  "Item": "PROPRANOLOL 40 MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 1110,
+  "Item": "PROPATILNITRATO 10MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 11",
+  "Codigo": 822,
+  "Item": "PROPAFENONA 300MG CMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 12",
+  "Codigo": 32191,
+  "Item": "ROSUVASTATINA CALCICA 20 MG CMP (B)",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 12",
+  "Codigo": 1236,
+  "Item": "SINVASTATINA 20MG COMPRIMIDO",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 12",
+  "Codigo": 39925,
+  "Item": "VERAPAMIL - 80MG COMP",
+  "Classe": "SISTEMA CARDIOVASCULAR"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 12",
+  "Codigo": 1231,
+  "Item": "BISACODIL 5MG COMP",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 12",
+  "Codigo": 1162,
+  "Item": "ESOMEPRAZOL 20MG COMP",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 12",
+  "Codigo": 43567,
+  "Item": "ESCOPOLAMINA 10MG - COMP",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 13",
+  "Codigo": 1238,
+  "Item": "SUPOSITORIO GLICERINA INFANTIL",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 13",
+  "Codigo": 1224,
+  "Item": "LOPERAMIDA 2 MG COMP  (##)",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 13",
+  "Codigo": 1164,
+  "Item": "OMEPRAZOL 20MG CAPS (B)",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 13",
+  "Codigo": 1488,
+  "Item": "DIMETICONA 40MG COMP",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 13",
+  "Codigo": 1228,
+  "Item": "SACCHAROMYCES BOULARDIL 200MG CAPS",
+  "Classe": "SISTEMA DIGESTORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 14",
+  "Codigo": 1240,
+  "Item": "ACIDO FOLICO 5MG CMP",
+  "Classe": "SISTEMA HEMATOPOETICOS E SANGUE"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 14",
+  "Codigo": 1287,
+  "Item": "CLOPIDOGREL 75 MG COMP",
+  "Classe": "SISTEMA HEMATOPOETICOS E SANGUE"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 14",
+  "Codigo": 1333,
+  "Item": "FLUNARIZINA 10MG COMP",
+  "Classe": "SISTEMA NERVOSO CENTRAL"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 15",
+  "Codigo": 1256,
+  "Item": "PREDNISONA 5MG CMP",
+  "Classe": "SISTEMA RESPIRATORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 15",
+  "Codigo": 347,
+  "Item": "PREDNISONA 20MG CMP",
+  "Classe": "SISTEMA RESPIRATORIO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 15",
+  "Codigo": 54812,
+  "Item": "CLORIDRATO DE TIAMINA 300MG COMP",
+  "Classe": "VITAMINAS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 16",
+  "Codigo": 54809,
+  "Item": "AMOXICILINA + CLAV POTASSIO 400+57MG\/5ML - FRS 70ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 16",
+  "Codigo": 45038,
+  "Item": "ACIDOS GRAXOS ESSENCIAIS - FRASCO 200ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 16",
+  "Codigo": 1268,
+  "Item": "ACEBROFILINA 10MG\/ML - 120ML ADULTO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 17",
+  "Codigo": 622,
+  "Item": "AZITROMICINA 600MG - 15ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 18",
+  "Codigo": 1193,
+  "Item": "BROMOPRIDA 4MG\/ML - 20ML GTS - (B)"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 18",
+  "Codigo": 207,
+  "Item": "CETOPROFENO 2% - 20ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 18",
+  "Codigo": 1196,
+  "Item": "DOMPERIDONA 1MG\/ML SUSP ORAL (K)"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 19",
+  "Codigo": 1211,
+  "Item": "DIMETICONA 75MG\/ML - (B) GTS C\/15ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 20",
+  "Codigo": 10501,
+  "Item": "DIPIRONA 500MG\/ML - 10ML GTS (K)"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 21",
+  "Codigo": 423,
+  "Item": "DEXCLORFENIRAMINA, MALEATO 0,4MG\/ML - 120ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 22",
+  "Codigo": 640,
+  "Item": "GLUCONATO DE CLOREXIDINA 0,15% SEM ALCOOL - 250ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 22",
+  "Codigo": 1349,
+  "Item": "ESCOPOLAMINA + DIPIRONA SODICA 6,67+333,4MG\/ML - 20ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 22",
+  "Codigo": 1221,
+  "Item": "ESCOPOLAMINA BUTILBROMETO 10MG\/ML - FR 20ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 22",
+  "Codigo": 14240,
+  "Item": "BROMIDRATO DE FENOTEROL 100MCG\/DOSE AEROSOL - FRS 10ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 23",
+  "Codigo": 1191,
+  "Item": "HIDROXIDO DE ALUMINIO SOLUÇÃO"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 23",
+  "Codigo": 58316,
+  "Item": "IBUPROFENO 100MG\/ML - FRS 20ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 23",
+  "Codigo": 1255,
+  "Item": "BROMETO DE IPRATROPIO - 20ML NBZ (K)"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 23",
+  "Codigo": 1292,
+  "Item": "LEVODROPROPIZINA - 120ML XAROPE"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 23",
+  "Codigo": 1509,
+  "Item": "LACTULOSE XAROPE (B)"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 24",
+  "Codigo": 1199,
+  "Item": "METOCLOPRAMIDA 4MG\/ML - 10ML GTS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 24",
+  "Codigo": 1512,
+  "Item": "NISTATINA 100.000UI\/ML - 50ML (B)"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 24",
+  "Codigo": 1331,
+  "Item": "OLEO MINERAL ORAL - 100ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 25",
+  "Codigo": 66699,
+  "Item": "SALBUTAMOL SPRAY 100MCG\/DOSE - 200DS"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 25",
+  "Codigo": 16129,
+  "Item": "PREDNISOLONA, FOSFATO SODICO 3MG\/ML - 100ML"
+ }
+]
