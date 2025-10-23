@@ -1,6 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
 
-    // --- Referências do DOM ---
     const searchInput = document.getElementById('searchInput');
     const searchButton = document.getElementById('searchButton');
     const autocompleteList = document.getElementById('autocomplete-list');
@@ -13,11 +12,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const menuToggle = document.getElementById('menu-toggle');
     const overlay = document.getElementById('overlay');
 
-    // --- NOVAS REFERÊNCIAS ---
     const desktopToggle = document.getElementById('desktop-toggle');
     const body = document.body;
 
-    // --- 1. Carregar Dados e Construir a Sidebar ---
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeIcon = document.getElementById('theme-icon');
+
+    let items = []; 
+
     fetch('listagem.json')
         .then(response => response.json())
         .then(data => {
@@ -30,15 +32,12 @@ document.addEventListener('DOMContentLoaded', () => {
             showErrorCard('Erro Grave ao Carregar', 'Não foi possível carregar o arquivo <strong>listagem.json</strong>.');
         });
     
-    // --- LÓGICA PARA RECOLHER SEÇÕES ---
     document.querySelectorAll('.section-header').forEach(header => {
         header.addEventListener('click', () => {
             header.parentElement.classList.toggle('open');
         });
     });
 
-
-    // ... (Funções buildCategoryTree, buildClassTree, displayItemsByLocation, displayItemsByClass - Sem mudanças) ...
     function buildCategoryTree(items) {
         const categories = {};
         items.forEach(item => {
@@ -132,8 +131,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // --- 2. Lógica de Busca (Sem mudanças) ---
-    // ... (Funções performSearch, listener de input, etc.) ...
     searchInput.addEventListener('input', () => {
         const query = searchInput.value.toLowerCase().trim();
         autocompleteList.innerHTML = '';
@@ -190,7 +187,6 @@ document.addEventListener('DOMContentLoaded', () => {
         if (e.key === 'Enter') performSearch();
     });
 
-    // --- 3. Lógica do Menu Mobile (Sem mudanças) ---
     menuToggle.addEventListener('click', () => {
         sidebar.classList.toggle('open');
         overlay.classList.toggle('active');
@@ -201,30 +197,41 @@ document.addEventListener('DOMContentLoaded', () => {
         overlay.classList.remove('active');
     });
 
-    // --- 4. LÓGICA DO NOVO TOGGLE DESKTOP ---
     desktopToggle.addEventListener('click', () => {
-        // Alterna a classe no body
         body.classList.toggle('sidebar-collapsed');
 
-        // Muda o ícone do botão
         if (body.classList.contains('sidebar-collapsed')) {
-            desktopToggle.innerHTML = '►'; // Seta para "Mostrar"
+            desktopToggle.innerHTML = '►';
             desktopToggle.setAttribute('aria-label', 'Exibir menu');
         } else {
-            desktopToggle.innerHTML = '◄'; // Seta para "Ocultar"
+            desktopToggle.innerHTML = '◄';
             desktopToggle.setAttribute('aria-label', 'Ocultar menu');
         }
     });
 
-    // Fecha a janelinha de autocompletar ao clicar fora
     document.addEventListener('click', (e) => {
         if (!searchContainer.contains(e.target)) {
             autocompleteList.style.display = 'none';
         }
     });
 
-    // --- 5. Funções Auxiliares (Sem mudanças) ---
-    // ... (Funções displaySingleItemCard e showErrorCard) ...
+    if (localStorage.getItem('theme') === 'dark') {
+        body.classList.add('dark-mode');
+        themeIcon.textContent = '☀️';
+    }
+
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        
+        if (body.classList.contains('dark-mode')) {
+            themeIcon.textContent = '☀️';
+            localStorage.setItem('theme', 'dark');
+        } else {
+            themeIcon.textContent = '🌙';
+            localStorage.setItem('theme', 'light');
+        }
+    });
+
     function displaySingleItemCard(item) {
         const itemElement = document.createElement('div');
         itemElement.className = 'result-item';

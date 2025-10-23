@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Almoxarifado Litoral</title>
+    <title>Buscador de Itens</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="sidebar-collapsed">
@@ -17,12 +17,13 @@
         <div class="logo-container">
             <img src="logo.png" alt="Logo Unimed"> 
         </div>
+
         <div class="sidebar-section">
             <h2 class="section-header" data-target="category-tree">
                 <span class="caret">►</span> Categorias
             </h2>
             <ul id="category-tree" class="section-content">
-                </ul>
+            </ul>
         </div>
 
         <div class="sidebar-section">
@@ -30,7 +31,7 @@
                 <span class="caret">►</span> Classes
             </h2>
             <ul id="class-tree" class="section-content">
-                </ul>
+            </ul>
         </div>
         
     </div>
@@ -50,11 +51,17 @@
         </div>
 
         <div class="results-container" id="results">
+            
             <p class="no-results" style="font-size: 1.1em; color: #94a3b8;">
                 Use a busca ou navegue pelas categorias na barra lateral.
             </p>
+
         </div>
     </div>
+
+    <button id="theme-toggle" aria-label="Alternar tema">
+        <span id="theme-icon">🌙</span>
+    </button>
 
     <script src="script.js"></script>
 </body>
