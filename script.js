@@ -163,6 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
             autocompleteList.style.display = 'none';
         }
     });
+
     function performSearch() {
         const query = searchInput.value.toLowerCase().trim();
         autocompleteList.style.display = 'none';
@@ -171,11 +172,13 @@ document.addEventListener('DOMContentLoaded', () => {
             showErrorCard('Busca Vazia', 'Por favor, digite um nome ou código para buscar.');
             return;
         }
+
         const filteredItems = items.filter(item => {
             const itemCode = String(item.Codigo);
             const itemName = item.Item.toLowerCase();
             return itemName.includes(query) || itemCode.includes(query);
         });
+
         if (filteredItems.length === 0) {
             showErrorCard('Item Não Encontrado', `Nenhum item corresponde à busca por: <strong>"${query}"</strong>`);
         } else {
@@ -183,8 +186,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 displaySingleItemCard(item);
             });
         }
+        
         searchInput.value = '';
     }
+
     searchButton.addEventListener('click', performSearch);
     searchInput.addEventListener('keyup', (e) => {
         if (e.key === 'Enter') performSearch();
@@ -260,4 +265,3 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
-
