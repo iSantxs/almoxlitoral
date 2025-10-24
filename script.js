@@ -148,12 +148,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const itemElement = document.createElement('div');
                 itemElement.className = 'autocomplete-item';
                 itemElement.innerHTML = `<h4>${item.Item}</h4><p>Código: ${item.Codigo}</p>`;
+                
                 itemElement.addEventListener('click', () => {
                     resultsContainer.innerHTML = '';
                     displaySingleItemCard(item);
                     autocompleteList.style.display = 'none';
-                    searchInput.value = item.Item;
+                    searchInput.value = '';
                 });
+
                 autocompleteList.appendChild(itemElement);
             });
             autocompleteList.style.display = 'block';
