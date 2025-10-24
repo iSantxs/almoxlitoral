@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 displaySingleItemCard(item);
             });
         }
+        searchInput.value = '';
     }
     searchButton.addEventListener('click', performSearch);
     searchInput.addEventListener('keyup', (e) => {
@@ -259,3 +260,4 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
 });
+
