@@ -1190,6 +1190,12 @@
  {
   "Estante": "ILHA CENTRAL",
   "Local": "BIN 23",
+  "Codigo": 143,
+  "Item": "LIDOCAINA 10% SPRAY - 50ML"
+ },
+ {
+  "Estante": "ILHA CENTRAL",
+  "Local": "BIN 23",
   "Codigo": 1292,
   "Item": "LEVODROPROPIZINA - 120ML XAROPE"
  },
@@ -1229,4 +1235,5 @@
   "Codigo": 16129,
   "Item": "PREDNISOLONA, FOSFATO SODICO 3MG\/ML - 100ML"
  }
+
 ]
