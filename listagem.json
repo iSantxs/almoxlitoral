@@ -1234,6 +1234,18 @@
 "Local": "BIN 25",
 "Codigo": 16129,
 "Item": "PREDNISOLONA, FOSFATO SODICO 3MG\/ML - 100ML"
+},
+{
+"Estante": "ILHA CENTRAL",
+"Local": "BIN 11",
+"Codigo": 54815,
+"Item": "METOPROLOL 50 MG COMP"
+},
+{
+"Estante": "ILHA CENTRAL",
+"Local": "BIN 14",
+"Codigo": 1285,
+"Item": "CILOSTAZOL 50MG CMP"
 }
 
 ]
